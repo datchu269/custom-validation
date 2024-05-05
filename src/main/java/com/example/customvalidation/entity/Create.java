@@ -9,5 +9,5 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Create {
 	@Hi1Validate(ValidateType.OBJECT_DATA_TYPE)
-	public HI1Object HI1Object;
+	public HI1Object hi1Object;
 }

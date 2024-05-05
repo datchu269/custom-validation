@@ -8,6 +8,6 @@ import lombok.Data;
 
 public class TargetIdentifierValue {
 	@Hi1Validate(ValidateType.OBJECT_DATA_TYPE)
-	public FormatType FormatType;
-	public String Value = "test";
+	public FormatType formatType;
+	public String value = "test";
 }

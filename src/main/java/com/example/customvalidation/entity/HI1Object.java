@@ -5,25 +5,27 @@ import com.example.customvalidation.custom.ValidateType;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Data
 @NoArgsConstructor
 public class HI1Object {
-    public String ObjectIdentifier = "test";
-    public String CountryCode = "test";
-    public String OwnerIdentifier = "test";
-    public String AuthorisationReference = "test";
+    public String objectIdentifier = "test";
+    public String countryCode = "test";
+    public String ownerIdentifier = "test";
+    public String authorisationReference = "test";
     @Hi1Validate(ValidateType.OBJECT_DATA_TYPE)
-    public AuthorisationTimespan AuthorisationTimespan;
+    public AuthorisationTimespan authorisationTimespan;
     public String type = "test";
     public String text = "test";
     @Hi1Validate(ValidateType.OBJECT_DATA_TYPE)
-    public AssociatedObjects AssociatedObjects;
-    public String Reference = "test";
+    public AssociatedObjects associatedObjects;
+    public String reference = "test";
     @Hi1Validate(ValidateType.OBJECT_DATA_TYPE)
-    public TargetIdentifier TargetIdentifier;
+    public TargetIdentifier targetIdentifier;
     @Hi1Validate(ValidateType.OBJECT_DATA_TYPE)
-    public DeliveryType DeliveryType;
+    public DeliveryType deliveryType;
     @Hi1Validate(ValidateType.OBJECT_DATA_TYPE)
-    public DeliveryDetails DeliveryDetails;
-    public CSPID CSPID;
+    public List<DeliveryDetails> deliveryDetails;
+    public CSPID cspid;
 }

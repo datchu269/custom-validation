@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class DeliveryType {
-	public String Owner = "test";
-	public String Name = "test";
-	public String Value= "test";
+	public String owner = "test";
+	public String name = "test";
+	public String value= "test";
 }

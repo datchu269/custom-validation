@@ -8,5 +8,5 @@ import lombok.Data;
 
 public class DeliveryDestination {
 	@Hi1Validate(ValidateType.OBJECT_DATA_TYPE)
-	public DeliveryAddress DeliveryAddress;
+	public DeliveryAddress deliveryAddress;
 }

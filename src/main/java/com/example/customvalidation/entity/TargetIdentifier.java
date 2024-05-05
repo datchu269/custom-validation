@@ -8,5 +8,5 @@ import lombok.Data;
 
 public class TargetIdentifier {
 	@Hi1Validate(ValidateType.OBJECT_DATA_TYPE)
-	public TargetIdentifierValues TargetIdentifierValues;
+	public TargetIdentifierValues targetIdentifierValues;
 }

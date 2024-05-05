@@ -8,6 +8,6 @@ import java.time.LocalDateTime;
 @Data
 @NoArgsConstructor
 public class AuthorisationTimespan {
-	public LocalDateTime StartTime = LocalDateTime.now();
-	public LocalDateTime EndTime = LocalDateTime.now();
+	public LocalDateTime startTime = LocalDateTime.now();
+	public LocalDateTime endTime = LocalDateTime.now();
 }
